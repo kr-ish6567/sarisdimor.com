@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Grocery Shopping</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Virtual Grocery Shopping</h1>
+    </header>
+
+    <section>
+        <h2>Welcome to our virtual grocery store!</h2>
+        <p>Start adding items to your cart and enjoy the convenience of online grocery shopping.</p>
+
+        <h3>Product Categories</h3>
+        <ul>
+            <li><a href="#">Fruits</a></li>
+            <li><a href="#">Vegetables</a></li>
+            <li><a href="#">Dairy</a></li>
+            <li><a href="#">Meat</a></li>
+            <!-- Add more categories as needed -->
+        </ul>
+
+        <h3>Featured Products</h3>
+        <div>
+            <h4>Product 1</h4>
+            <p>Description of Product 1. Price: $X.XX</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div>
+            <h4>Product 2</h4>
+            <p>Description of Product 2. Price: $X.XX</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Add more product sections as needed -->
+
+        <h3>Shopping Cart</h3>
+        <ul id="shopping-cart">
+            <!-- Cart items will be displayed here -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Virtual Grocery Shopping. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
